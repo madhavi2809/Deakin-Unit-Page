@@ -1,5 +1,3 @@
-
-
 h1 {
   font-size: 40px;
   font-family: Arial
@@ -8,6 +6,18 @@ h2 {
   font-size: 25px;
   font-family: Arial
 }
+.unit-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.unit-table td, .unit-table th {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+.unit-table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
 h3 {
   font-family: Arial
 }
@@ -15,5 +25,3 @@ p {
   font-size: 14px;
   font-family: Arial
 }
-
-
